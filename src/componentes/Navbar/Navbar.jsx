@@ -1,4 +1,4 @@
-
+import { CardWidget } from '../CardWidget/CardWidget'
 
 function Navbar() {
   return (
@@ -26,6 +26,7 @@ function Navbar() {
           <a className="nav-link" href="#">About</a>
         </li>
       </ul>
+      <CardWidget/>
     </div>
   </div>
 </nav>
