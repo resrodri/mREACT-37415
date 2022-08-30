@@ -1,2 +1,38 @@
 .icono {color: ghostwhite;
         font-size: 40px;}
+
+.bodyApp {
+        background-color: brown;
+        background-size: cover;
+        color: aliceblue;
+}
+
+.counter-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: black;
+        color: aliceblue;
+        backdrop-filter: red(4px);
+        border-radius: 5px;
+        margin: 20px;
+        width: 400px;
+        height: 400px;
+        padding-left: 40px;
+}
+
+.btn {
+        background-color: dimgray;
+        padding: 10px 15px;
+        margin: 2px;
+        color: blanchedalmond;
+        border: none;
+        border-radius: 2px;
+        cursor: pointer;
+}
+
+@media(max-widh:800px) {
+        .counter-box {
+                max-width: 80vw;
+        }
+}
